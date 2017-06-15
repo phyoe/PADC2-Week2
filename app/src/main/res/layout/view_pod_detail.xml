@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xyz.phyoekhant.padc_week2.views.pods.ViewPodDetail xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/MyAppTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/img_width"
+        android:layout_marginTop="@dimen/margin_large">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/img_width"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_entire"
+                style="@style/MyAppBodyText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/entire_place" />
+
+            <TextView
+                android:id="@+id/tv_host"
+                style="@style/MyAppBodyText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_entire"
+                android:text="@string/hosted_by" />
+
+            <TextView
+                android:id="@+id/tv_anna"
+                style="@style/MyAppBodyText2Cyan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_entire"
+                android:layout_toRightOf="@id/tv_host"
+                android:text="@string/anna" />
+
+        </RelativeLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleView"
+            android:layout_width="@dimen/img_width"
+            android:layout_height="@dimen/img_width"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/pkz" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_large"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ic_guests"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_guests_24dp" />
+
+            <TextView
+                style="@style/MyAppBodyText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ic_guests"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_4guests" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ic_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_room_24dp" />
+
+            <TextView
+                style="@style/MyAppBodyText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ic_room"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_room" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ic_bed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_bed_24dp" />
+
+            <TextView
+                style="@style/MyAppBodyText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ic_bed"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_2beds" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ic_bath"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_bath_24dp" />
+
+            <TextView
+                style="@style/MyAppBodyText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ic_bath"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_1bath" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/img_width"
+        android:layout_marginTop="@dimen/margin_large">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/img_width"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_dollar_69"
+                style="@style/MyAppBodyText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dollar_69" />
+
+            <TextView
+                android:id="@+id/tv_per_night"
+                style="@style/MyAppBodyText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/tv_dollar_69"
+                android:text="@string/per_night" />
+
+            <TextView
+                android:id="@+id/tv_stars"
+                style="@style/MyAppBodyText2Cyan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_dollar_69"
+                android:text="@string/str_stars" />
+
+            <TextView
+                android:id="@+id/tv_84"
+                style="@style/MyAppBodyText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_dollar_69"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/tv_stars"
+                android:text="@string/str_84" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_check"
+            style="@style/MyAppTextStyleNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/rounded_corner"
+            android:padding="@dimen/margin_medium_1"
+            android:text="@string/str_check"
+            android:textAllCaps="false"
+            android:textColor="@color/white_full" />
+
+    </RelativeLayout>
+
+
+</xyz.phyoekhant.padc_week2.views.pods.ViewPodDetail>

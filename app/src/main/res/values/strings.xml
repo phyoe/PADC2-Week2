@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PADC-Week2</string>
+    <string name="tv_title">i sette coni - trullo edera</string>
+    <string name="str_check">Check availability</string>
+    <string name="action_favourite">Favourite</string>
+    <string name="action_share">Share</string>
+    <string name="entire_place">Entire place</string>
+    <string name="hosted_by">Hosted by&#160;</string>
+    <string name="anna">Anna</string>
+    <string name="str_4guests">4 guests</string>
+    <string name="str_room">1 room</string>
+    <string name="str_2beds">2 beds</string>
+    <string name="str_1bath">1 bath</string>
+    <string name="dollar_69">$69</string>
+    <string name="per_night">&#160;per night</string>
+    <string name="str_stars">★★★★★&#160;</string>
+    <string name="str_84">84</string>
+</resources>
